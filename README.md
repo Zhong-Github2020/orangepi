@@ -23,6 +23,12 @@ https://www.sdcard.org/downloads/formatter/<br>
 ```
  ./ngrok -config ngrok.conf -log=ngrok.log start httptun httpstun tcptun
 ```
+If the ngrok service is close after terminal close, then use nohup
+```
+nohup ./ngrok -config ngrok.conf -log=ngrok.log start hcptun
+```
+ nohup ./ngrok -config ngrok.conf -log=ngrok.log start tcptun
+```
 
 * Start up nginx server
 ```
