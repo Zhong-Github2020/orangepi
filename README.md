@@ -18,3 +18,9 @@ https://www.sdcard.org/downloads/formatter/<br>
 * Use Win32DiskImager install downloaded Armbian image to SD card<br>
 使用Win32DiskImager将下载好的Armbian映像安装的到SD卡上<br>
 ![image](https://github.com/Zhong-Github2020/orangepi/blob/main/Win32DiskImager.JPG)
+
+* Start up nginx server
+```
+cd etc
+nginx
+```
