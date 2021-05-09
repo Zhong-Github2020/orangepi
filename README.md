@@ -19,6 +19,11 @@ https://www.sdcard.org/downloads/formatter/<br>
 使用Win32DiskImager将下载好的Armbian映像安装的到SD卡上<br>
 ![Win32DiskImager](https://github.com/Zhong-Github2020/orangepi/blob/main/Win32DiskImager.JPG)
 
+* Start up ngrok XiaoMiQiu
+```
+ ./ngrok -config ngrok.conf -log=ngrok.log start httptun httpstun tcptun
+```
+
 * Start up nginx server
 ```
 cd etc
