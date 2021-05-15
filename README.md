@@ -47,3 +47,9 @@ another method to stop nginx<br>
 ps -ef|grep nginx
 kill -QUIT 进程号
 ```
+
+向vsftp服务器上传文件报“550 Permission denied”错误的解决办法 <br>
+
+原因：vsftp默认配置不允许上传文件。 <br>
+解决：修改/etc/vsftpd.conf <br>
+将“write_enable=YES”前面的#取消。 <br>
