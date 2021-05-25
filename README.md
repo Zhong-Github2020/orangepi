@@ -25,9 +25,12 @@ https://www.sdcard.org/downloads/formatter/<br>
 ```
 If the ngrok service is close after terminal close, then use nohup
 ```
-nohup ./ngrok -config ngrok.conf -log=ngrok.log start hcptun
+nohup ./ngrok -config ngrok.conf -log=ngrok.log start tcptun
 ```
- nohup ./ngrok -config ngrok.conf -log=ngrok.log start tcptun
+
+After that, we can remote login this machine via below:
+```
+ssh -p 91 user@user128.ngrok2.xiaomiqiu.cn
 ```
 
 * Start up nginx server
