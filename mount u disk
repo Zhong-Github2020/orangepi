@@ -1,0 +1,5 @@
+Mount U Disk挂载U盘
+
+```
+sudo fdisk -l
+```
