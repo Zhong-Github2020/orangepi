@@ -1,8 +1,10 @@
-Mount U Disk挂载U盘<br>
+### Mount U Disk<br>
+### 挂载U盘<br>
 
 ```
 sudo fdisk -l
 ```
+显示为<br>
 ```
 Disk /dev/ram0: 4 MiB, 4194304 bytes, 8192 sectors
 Units: sectors of 1 * 512 = 512 bytes
@@ -62,7 +64,7 @@ Units: sectors of 1 * 4096 = 4096 bytes
 Sector size (logical/physical): 4096 bytes / 4096 bytes
 I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 ```
-
+挂载sda1为mnt<br>
 ```
 sudo mount /dev/sda1 /mnt
 orangepilite:/mnt$ cd /mnt
