@@ -46,3 +46,4 @@ scp -r username@servername:/var/www/remote_dir/（远程目录） /var/www/local
 scp  -r local_dir username@servername:remote_dir<br>
 
  例如
+  
