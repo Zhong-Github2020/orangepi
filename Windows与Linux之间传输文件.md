@@ -1,6 +1,6 @@
 ### 当windows与linux处于同一局域网，通过ftp传输文件到linux服务器
 <br>
-在windows的文件管理器的地址栏输入：
+在windows的文件管理器的地址栏输入:
 ```
 ftp://192.168.x.xxx/
 ```
