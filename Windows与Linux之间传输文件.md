@@ -5,6 +5,7 @@
 ftp://192.168.x.xxx/
 ```
 <br>
+
 ### 当windows在外网通过ngrok穿透时，通过SSH传输文件到linux服务器
 <br>
 在Powershell下可以用scp这个命令来通过ssh传输文件。<br>
