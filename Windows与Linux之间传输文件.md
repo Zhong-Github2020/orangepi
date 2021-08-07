@@ -1,9 +1,9 @@
 ### 当windows与linux处于同一局域网，通过ftp传输文件到linux服务器
 <br>
 在windows的文件管理器的地址栏输入:<br>
-```
- ftp://192.168.x.xxx  
-```
+
+` ftp://192.168.x.xxx  `
+
 <br>
 
 ### 当windows在外网通过ngrok穿透时，通过SSH传输文件到linux服务器
