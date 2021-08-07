@@ -1,18 +1,18 @@
 ### 当windows与linux处于同一局域网，通过ftp传输文件到linux服务器
 <br>
 在windows的文件管理器的地址栏输入:<br>
-``` 
+```
 ftp://192.168.x.xxx/
-``` 
+```
 <br>
 
 ### 当windows在外网通过ngrok穿透时，通过SSH传输文件到linux服务器
 <br>
 在Powershell下可以用scp这个命令来通过ssh传输文件。<br>
 但下述指令是在powershell下进行，不需要通过ssh登录远程服务器。<br>
-``` 
+```
 PS C:\Users\xxx>
-``` 
+```
 需要注意的是对于windows的SCP来说，其默认目录为C:\User\xxx\ （可以通过在powershell的输入"dir"或者"ls"来观察）
 
 1. 从服务器上下载文件
