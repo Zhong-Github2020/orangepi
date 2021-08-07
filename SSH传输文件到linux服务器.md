@@ -11,7 +11,7 @@ scp username@servername:/path/filename /var/www/local_dir（本地目录）
 
  例如：
 ```
-PS C:\Users\xxx>scp -P 91 xxx@xxx128.ngrok2.xiaomiqiu.cn:/home/xxx/ftp /Desktop/
+PS C:\Users\xxx>scp -P 91 xxx@xxx128.ngrok2.xiaomiqiu.cn:/home/xxx/ftp/startngrok.txt /Desktop/
 ```
  把xxx128.ngrok2.xiaomiqiu.cn上的/home/xxx/ftp/startngrok.txt 的文件下载到/Desktop（本地目录）
  上面的"-P 91"是将ngrok内网穿透的端口指定。
